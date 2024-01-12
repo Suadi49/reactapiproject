@@ -1,0 +1,71 @@
+$color-green: #4CAF4F;
+$color-light-green: #E8F5E9;
+$title-color: #4D4D4D;
+$subtitle-color: #717171;
+$section-color: #F5F7FA;
+
+
+
+
+.button-text-green{  
+    width: 77px;
+    height: 40px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    color: #4CAF4F;
+    background-color: transparent;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.button-green {
+    width: 91px;
+    height: 40px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+    background-color: #4CAF4F;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.learn-button {
+    width: 151px;
+    height: 52px;
+    background-color: #4CAF4F;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.register-button {
+    width: 128px;
+    height: 52px;
+    background-color: $color-green;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 16px;
+}
